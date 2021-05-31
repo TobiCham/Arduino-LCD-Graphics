@@ -4,7 +4,7 @@ This library attempts to create a Graphics style library to render simple graphi
 
 The standard LCD display that is used with Arduinos is primarily a text based display, and does not support rendering custom graphics. Fortunately, most displays do have custom characters which can be rendered as characters. This library makes use of these to dynamically render graphics.
 
-<img src="/examples/StaticDraw.png" width="500"/>
+<img src="/examples/StaticDraw/StaticDraw.png" width="500"/>
 
 ## Limitations
 The LCD display was not designed with this use in mind. The complexity of graphics which can be rendered is limited by the number of custom characters which can be rendered. The display I have used to test this has 8. This means that only 8 unique cells can be rendered on the display at once. Therefore, this library should only primarily be used to draw simple graphics.
